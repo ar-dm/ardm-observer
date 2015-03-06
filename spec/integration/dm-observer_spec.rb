@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe DataMapper::Observer do
+RSpec.describe DataMapper::Observer do
   before :all do
     class ::Adam
       include DataMapper::Resource
